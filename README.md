@@ -1,4 +1,4 @@
-## DESAFIO 2: SUPERSET E POSTGRESQL
+## DESAFIO 3: SUPERSET E POSTGRESQL
 
 ## 🔨 Funcionalidades do projeto
 
