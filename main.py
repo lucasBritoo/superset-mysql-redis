@@ -35,5 +35,6 @@ os.system("/usr/local/bin/superset db upgrade")
 os.system("/usr/local/bin/superset init")
 os.system("/usr/local/bin/gunicorn -w 2 --timeout 2000 -b 0.0.0.0:8088 'superset.app:create_app()' --daemon")
 
-
+os.system("sudo cp /home/vagrant/pg_hba.conf /var/lib/pgsql/12/data/pg_hba.conf")
+os.system("sudo cp /home/vagrant/postgresql.conf /var/lib/pgsql/12/data/postgresql.conf")
 
