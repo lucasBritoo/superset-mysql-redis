@@ -14,6 +14,8 @@ Vagrant.configure("2") do |config|
   config.vm.provision :file, source: './id_rsa_slave.pub', destination: "~/.ssh/authorized_keys"
   config.ssh.private_key_path = ['./id_rsa_slave', '~/.vagrant.d/insecure_private_key']
   config.vm.provision :file, source: 'main.py', destination: "main.py"
+  config.vm.provision :file, source: 'pg_hba.conf', destination: "pg_hba.conf"
+  config.vm.provision :file, source: 'postgresql.conf', destination: "postgresql.conf"
   config.ssh.insert_key = false
   config.vm.provision "shell", inline: $script
 
