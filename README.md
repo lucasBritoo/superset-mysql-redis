@@ -62,6 +62,8 @@ Toda a documentação que foi consultada durante o desenvolvimento está referen
 
 Há dois arquivos que são copiados para '/var/lib/pgsql/12/data', são eles: 'pg_hba.conf' e 'postgresql.conf'. Estes arquivos contém a liberação para acessar a instância do postgre externo a VM. Assim foi possível testar a conexão utilizando o PGAdmin instalado na máquina host e acessar o PostgreSQL dentro da VM.
 
+A porta configurada para o postgreSQL é a 5432 na VM e 5432 no host. O username de conexão é 'postgres'.
+
 ## :green_book: Superset
 
 Toda a documentação que foi consultada durante o desenvolvimento está referenciada logo abaixo:
@@ -70,5 +72,7 @@ Toda a documentação que foi consultada durante o desenvolvimento está referen
 -   [oficial] https://superset.apache.org/docs/installation/installing-superset-from-scratch/#python-virtual-environment
 -   [externo] https://github.com/tylerFowler/docker-superset/blob/master/superset-init.sh
 
-O Superset está sendo executado na porta 8088 externo, assim é possível se conectar no navegador pela url 'http://localhost:8088/'. 
+O Superset está sendo executado na porta 8088 na VM e 8088 no host, assim é possível se conectar no navegador pela url 'http://localhost:8088/'.
+
+O username para conexão é 'admin' e a senha é 'admin123'. 
 
