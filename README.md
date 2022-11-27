@@ -1,4 +1,4 @@
-# superset-mysql-redis## ⚙ Ambiente de desenvolvimento
+## DESAFIO 2: SUPERSET E POSTGRESQL
 
 ## 🔨 Funcionalidades do projeto
 
@@ -7,7 +7,7 @@
 - `Funcionalidade 3`: ✔️ Criar um programa em python que faça a instalação do Python3 e do Apache Superset na máquina;
 - `Funcionalidade 4`: ✔️ Adicionar ao script Python a instalação do PostgreSQL;
 - `Funcionalidade 5`: :heavy_multiplication_x: Integrar o PostgreSQL com o Superset <b>(Em desenvolvimento)</b>.
-- `Funcionalidade 5`: 	:heavy_multiplication_x: Fazer instalação do Redis e integrar com o Superset <b>(Em desenvolvimento)</b>.
+- `Funcionalidade 5`: :heavy_multiplication_x: Fazer instalação do Redis e integrar com o Superset <b>(Em desenvolvimento)</b>.
 
 ## ⚙ Ambiente de desenvolvimento
 
